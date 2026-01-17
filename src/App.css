@@ -1,0 +1,15 @@
+*{
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.full_container{
+  display: grid;
+  grid-template-columns: 160px auto;
+}
+
+
+

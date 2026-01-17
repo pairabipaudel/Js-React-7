@@ -1,0 +1,95 @@
+.dashboard_content_container
+{
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+  width:95%;
+}
+
+button{
+    background-color:  rgb(205, 204, 204);
+}
+
+.user_profiler_container{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.user_profiler_container button
+{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.user_profile_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard_content_button{
+    margin-left: 10px;
+    width: 80%;
+    display: grid;
+    
+    grid-template-columns: repeat(7,1fr);
+    gap:30px;
+}
+
+.dashboard_maincontent_container{
+    width: 95%;
+    display: flex;
+    height:600px;
+    margin-top: 20px;
+    gap:30px;
+}
+
+.second_inner_divider_dashboard{
+   width:30%;
+}
+
+.second_inner_divider_dashboard button{
+    width: 100%;
+    height: 100%;
+}
+
+.inner_divider_dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap:30px;
+}
+
+.top_button_container{
+    display: flex;
+    gap:20px;
+    height: 70%;
+}
+
+.first_button{
+    width:15%;
+}
+
+.second_button{
+    width:85%;
+}
+.bottom_button_container{
+    height: 30%;
+    width: 100%;
+}
+
+.third_button{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+.projects_collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    gap:20px;
+}
+
+.each_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:250px;
+    padding: 10px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.each_project button{
+    width:100%;
+    height:70%;
+    margin: 5px;
+    background-color: rgb(205, 204, 204);
+    border: none;
+    border-radius: 5px;
+}
+
+.content_project{
+    margin-top: 5px;
+}
+
+.main_title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.desccription{
+    color: grey;
+    font-size: 14px;
+    width:100%;
+}
+
+
+
+.react_project button{
+    height: 20px;
+    width: 20px;
+    background-color:  rgb(205, 204, 204);
+}
